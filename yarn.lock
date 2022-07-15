@@ -4101,7 +4101,7 @@ ansi-to-html@^0.6.11:
   dependencies:
     entities "^2.0.0"
 
-antd@^4.16.13, antd@^4.21.6:
+antd@^4.21.6:
   version "4.21.6"
   resolved "https://registry.yarnpkg.com/antd/-/antd-4.21.6.tgz#ab8441e132dca4e1418d7b3fba8caf9c93d9f74d"
   integrity sha512-6sizu/2CT0ofxl0nEvWUg5x2z7UOXZV+OqNcnQvrp+nGYI3ySAyzu8rxPvWIoA7NIa3TYnbrFayGy2gAqDGpuA==
@@ -5570,23 +5570,6 @@ copy-to-clipboard@^3.2.0:
   integrity sha512-i13qo6kIHTTpCm8/Wup+0b1mVWETvu2kIMzKoK8FpkLkFxlt0znUAHcMzox+T8sPlqtZXq3CulEjQHsYiGFJUw==
   dependencies:
     toggle-selection "^1.0.6"
-
-copy-webpack-plugin@^6.4.1:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/copy-webpack-plugin/-/copy-webpack-plugin-6.4.1.tgz#138cd9b436dbca0a6d071720d5414848992ec47e"
-  integrity sha512-MXyPCjdPVx5iiWyl40Va3JGh27bKzOTNY3NjUTrosD2q7dR/cLD0013uqJ3BpFbUjyONINjb6qI7nDIJujrMbA==
-  dependencies:
-    cacache "^15.0.5"
-    fast-glob "^3.2.4"
-    find-cache-dir "^3.3.1"
-    glob-parent "^5.1.1"
-    globby "^11.0.1"
-    loader-utils "^2.0.0"
-    normalize-path "^3.0.0"
-    p-limit "^3.0.2"
-    schema-utils "^3.0.0"
-    serialize-javascript "^5.0.1"
-    webpack-sources "^1.4.3"
 
 core-js-compat@^3.21.0, core-js-compat@^3.22.1, core-js-compat@^3.8.1:
   version "3.23.4"
@@ -7091,7 +7074,7 @@ fast-glob@^2.2.6:
     merge2 "^1.2.3"
     micromatch "^3.1.10"
 
-fast-glob@^3.2.11, fast-glob@^3.2.4, fast-glob@^3.2.9:
+fast-glob@^3.2.11, fast-glob@^3.2.9:
   version "3.2.11"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.11.tgz#a1172ad95ceb8a16e20caa5c5e56480e5129c1d9"
   integrity sha512-xrO3+1bxSo3ZVHAnqzyuewYT6aMFHRAd4Kcs92MAonjwQZLsK9d0SF1IyQ3k5PoirxTW0Oe/RqFgMQ6TcNE5Ew==
@@ -7574,7 +7557,7 @@ glob-parent@^3.1.0:
     is-glob "^3.1.0"
     path-dirname "^1.0.0"
 
-glob-parent@^5.1.1, glob-parent@^5.1.2, glob-parent@~5.1.2:
+glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
   integrity sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==
@@ -7660,7 +7643,7 @@ globalthis@^1.0.0:
   dependencies:
     define-properties "^1.1.3"
 
-globby@^11.0.1, globby@^11.0.2, globby@^11.0.4, globby@^11.1.0:
+globby@^11.0.2, globby@^11.0.4, globby@^11.1.0:
   version "11.1.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-11.1.0.tgz#bd4be98bb042f83d796f7e3811991fbe82a0d34b"
   integrity sha512-jhIXaOzy1sb8IyocaruWSn1TjmnBVs8Ayhcy83rmxNJ8q2uWKCAj3CnJY+KpGSXCueAPc0i05kVvVKtP1t9S3g==
@@ -7820,13 +7803,6 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
-
-hasharray@^1.1.1:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/hasharray/-/hasharray-1.1.2.tgz#ba5aa8656d26af92c9e4525315b62b5f651039d3"
-  integrity sha512-7w3idwaVXX9gL9LiTCBSNKRGTBcp2WI/kf13UYeZ9+trOGBHVYHei6qtMY6DVnwGOouVUSRg0+L2xf4Q2/CmzA==
-  dependencies:
-    jclass "^1.0.1"
 
 hast-to-hyperscript@^9.0.0:
   version "9.0.1"
@@ -8769,11 +8745,6 @@ jake@^10.8.5:
     chalk "^4.0.2"
     filelist "^1.0.1"
     minimatch "^3.0.4"
-
-jclass@^1.0.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/jclass/-/jclass-1.2.1.tgz#eaafeec0dd6a5bf8b3ea43c04e010c637638768b"
-  integrity sha512-mRx8uv1qJLOtxbRf3IWOQIH2ro7VIPn6ZkhbTcUJvJEslLzYA7BSATXDi/GR1yKYV9DASsjTZL+0YJPdqSMznw==
 
 jest-changed-files@^27.5.1:
   version "27.5.1"
@@ -12353,21 +12324,6 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
-react-fast-compare@^3.1.1:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
-  integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
-
-react-helmet@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-6.1.0.tgz#a750d5165cb13cf213e44747502652e794468726"
-  integrity sha512-4uMzEY9nlDlgxr61NL3XbKRy1hEkXmKNXhjbAIOVw5vcFrsdYbH2FEwcNyWvWinl103nXgzYNlns9ca+8kFiWw==
-  dependencies:
-    object-assign "^4.1.1"
-    prop-types "^15.7.2"
-    react-fast-compare "^3.1.1"
-    react-side-effect "^2.1.0"
-
 react-inspector@^5.1.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-inspector/-/react-inspector-5.1.1.tgz#58476c78fde05d5055646ed8ec02030af42953c8"
@@ -12456,11 +12412,6 @@ react-scripts@5.0.1:
     workbox-webpack-plugin "^6.4.1"
   optionalDependencies:
     fsevents "^2.3.2"
-
-react-side-effect@^2.1.0:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.2.tgz#dc6345b9e8f9906dc2eeb68700b615e0b4fe752a"
-  integrity sha512-PVjOcvVOyIILrYoyGEpDN3vmYNLdy1CajSFNt4TDsVQC5KpTijDvWVoR+/7Rz2xT978D8/ZtFceXxzsPwZEDvw==
 
 react-syntax-highlighter@^15.4.5:
   version "15.5.0"
@@ -13524,17 +13475,6 @@ store2@^2.12.0:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.14.0.tgz#78a18daa1b49265af9df3b9aa54b383feaeb9bed"
   integrity sha512-+R2GBbzhDQC7trNLC9R1UcvK0UJHZDKcsewF9iWMfyjL9G7OZdQVJubvYOXsNVqRdZnHzDd1RaYHoX+8J+8tUw==
 
-storybook-addon-customize-antd-theme@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/storybook-addon-customize-antd-theme/-/storybook-addon-customize-antd-theme-1.1.0.tgz#12a2fa483615beb3c4ff013cff114d516ad8d785"
-  integrity sha512-xM0+wPjw22yBktTpo1Zu80KyH8Tbx9RNdza43Zld+YCLViDvLcRPz1zf1c00Ki5aqAfNHQlv2cjjAM8b3TjZjQ==
-  dependencies:
-    antd "^4.16.13"
-    copy-webpack-plugin "^6.4.1"
-    lodash "^4.17.21"
-    react-helmet "^6.1.0"
-    trie-search "^1.3.5"
-
 stream-browserify@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/stream-browserify/-/stream-browserify-2.0.2.tgz#87521d38a44aa7ee91ce1cd2a47df0cb49dd660b"
@@ -14144,13 +14084,6 @@ tr46@~0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
   integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
-
-trie-search@^1.3.5:
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/trie-search/-/trie-search-1.3.6.tgz#a2fb5f53bf74ace71b2ba8388efd9416c51b4da9"
-  integrity sha512-CsQZ3F/K9ee1WofZjLgw/KBo2CKQ+o4uq2QWqJ1f4GlBZO2wCplkHPeT9cyZfLXF5+jPWVLwyYdAIy4hGk8VbQ==
-  dependencies:
-    hasharray "^1.1.1"
 
 trim-newlines@^1.0.0:
   version "1.0.0"
